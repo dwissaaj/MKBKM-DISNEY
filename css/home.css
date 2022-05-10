@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+:root {
+    --base-color: #121926;
+    --base-color-lighter :#d4d4d4;
+    --base-color-dropdown : #17233b;
+    --base-color-dark-blue: #04080f;
+  }
+#body-color{
+    background-color: var(--base-color);
+}
+.nav-img-list{
+    height: 25px;
+    width: 25px;
+}
+
+.dropdown-color-ul{
+    background-color: var(--base-color);
+}
+.dropdown-color-ul:hover{
+    background-color: var(--base-color);
+}
+
+.dropdown-color-li:hover{
+    background-color: var(--base-color-dark-blue);
+}
+.dropdown-color-li{
+    background-color: var(--base-color);
+}
+
+.dropdown-text{
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    color: #757474;
+    font-weight: bolder;
+}
+
+.dropdown-text-2:hover{
+    font-family: 'Roboto';
+    color: white;
+    font-size: 15px;
+}
+
+.dropdown-text-2{
+    font-family: 'Roboto';
+    color: #cfd1d0;
+    font-size: 15px;
+}
+.nav-img{
+    width: 115px;
+    height: 50px;
+}
+.nav-text{
+    font-family: 'Roboto';
+    color: #FFEDC7;
+    font-size: 19px;
+}
+
+.nav-text-2{
+    font-family: 'Roboto';
+    color: #FFEDC7;
+    font-size: 15px;
+}
+
+.nav-hover-color:hover{
+    color: white;
+}
+
+.nav-search-color{
+    background-color: var(--base-color);
+}
+
+.nav-search-color:focus{
+    background-color: var(--base-color);
+}
+
+.nav-search-text:focus{
+    color: white;
+}
+
+.nav-hover-color:focus{
+    color: white;
+}
+
+.nav-img-person{
+    width: 30px;
+    height: 30px;
+}
